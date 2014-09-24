@@ -5,7 +5,7 @@ published: true
 categories: gamedev
 ---
 
-__Update__ Depuis la version 4.3 la création de jeu vidéo 2D est incluse dans Unity, voir [2D tutorials][http://unity3d.com/learn/tutorials/modules/beginner/2d].
+__Update__ Depuis la version 4.3 la création de jeu vidéo 2D est incluse dans Unity : [2D tutorials](http://unity3d.com/learn/tutorials/modules/beginner/2d).
 
 Même si Unity 3D est moteur de jeu 3D, il reste toujours un moteur intéressant pour faire de la 2D. Dans cet article je vais montrer les techniques pour faire un jeu 2D avec des sprites. 
 
