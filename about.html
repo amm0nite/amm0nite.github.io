@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div id="ammonite_pic">
+    <canvas id="ammonite_canvas" width="180" height="180" />
+</div>
+<div id="ammonite_text">
+    <h1>Pierre C.</h1>
+    <p>
+        Bonjour! I am a french developer with an engineering degree in IT and networks.
+        I like programming, sysadmin my own linux servers, DIY connected electronics, gamedev and PC gaming.
+        My plan is to use this blog to share my projets and other experiments. I want to do cool things and tell people.
+    </p>
+</div>
+<div id="ammonite_projects">
+    <h2>Links</h2>
+    <table>
+        <tr>
+            <td><a href="{{ site.baseurl }}/">My blog (this site)</a></td>
+        </tr>
+    </table>
+</div>
+
+<script>
+var canvas = document.getElementById("ammonite_canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "rgb(200,0,0)";
+ctx.fillRect (10, 10, 55, 50);
+</script>
