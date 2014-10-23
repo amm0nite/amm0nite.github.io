@@ -31,11 +31,17 @@ Extraire le contenu de l'archive dans le dossier `SFML/source`
 
 ![Ajouter au system PATH]({{ site.url }}/assets/cmake.png)
 
-Lancer CMake, remplir les deux premiers champ avec les bon dossiers `SFML/source` et `SFML/build`.
+Lancer la console développeur pour VS2013. Le raccourci pour accéder à la console se situe dans ce dossier `C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\Shortcuts` (accessbile depuis le "menu démarrer").
+
+Lancer l'interface de CMake en tapant `cmake-gui`.
+
+Remplir les deux premiers champ avec les bon dossiers `SFML/source` et `SFML/build`.
 
 ![Dossier source et build]({{ site.url }}/assets/paths.png)
 
-Cliquer sur le bouton "configure".
+Cliquer sur le bouton "configure", choisir "NMake Makefiles" et vérifier que "Use default native compilers" est activé.
+
+![Configure: première étape]({{ site.url }}/assets/paths.png)
 
 ## Configurer Visual Studio
 
