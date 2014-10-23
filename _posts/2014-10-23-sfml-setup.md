@@ -41,7 +41,7 @@ Remplir les deux premiers champ avec les bon dossiers `SFML/source` et `SFML/bui
 
 Cliquer sur le bouton "configure", choisir "NMake Makefiles" et vérifier que "Use default native compilers" est activé.
 
-![Configure: première étape]({{ site.url }}/assets/paths.png)
+![Configure: première étape]({{ site.url }}/assets/configure1.png)
 
 ## Configurer Visual Studio
 
