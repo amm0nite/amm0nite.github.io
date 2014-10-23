@@ -17,9 +17,9 @@ Cet article est en fait une synthèse de deux tutoriels oficiel de SFML.
 [Télécharger](http://sfml-dev.org/download-fr.php) le code source de SFML
 
 Créer les dossiers suivants:
-* C:\SFML\source
-* C:\SFML\build
-* C:\SFML\install
+    C:\SFML\source
+    C:\SFML\build
+    C:\SFML\install
 
 Extraire le contenu de l'archive dans le dossier `SFML/source`
 
