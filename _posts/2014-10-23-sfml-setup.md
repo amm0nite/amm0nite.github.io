@@ -31,6 +31,12 @@ Extraire le contenu de l'archive dans le dossier `SFML/source`
 
 ![Ajouter au system PATH]({{ site.url }}/assets/cmake.png)
 
+Lancer CMake, remplir les deux premiers champ avec les bon dossiers `SFML/source` et `SFML/build`.
+
+![Dossier source et build]({{ site.url }}/assets/paths.png)
+
+Cliquer sur le bouton "configure".
+
 ## Configurer Visual Studio
 
 REDACTION EN COURS 
