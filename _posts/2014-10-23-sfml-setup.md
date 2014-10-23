@@ -9,8 +9,8 @@ Pour pouvoir développer avec SFML sur Visual Studio 2013, il faut compiler les 
 Je fait un article histoire d'avoir une référence pour refaire cette manipulation rapidement.
 
 Cet article est en fait une synthèse de deux tutoriels oficiel de SFML.
-- [Compiler avec cmake](http://sfml-dev.org/tutorials/2.0/compile-with-cmake-fr.php "Compiler avec cmake")
-- [SFML et Visual studio](http://sfml-dev.org/tutorials/2.1/start-vc-fr.php "SFML et Visual studio")
+* [Compiler avec cmake](http://sfml-dev.org/tutorials/2.0/compile-with-cmake-fr.php "Compiler avec cmake")
+* [SFML et Visual studio](http://sfml-dev.org/tutorials/2.1/start-vc-fr.php "SFML et Visual studio")
 
 ## Compiler SFML
 
@@ -30,3 +30,5 @@ ajouter au path
 
 
 ## Configurer Visual Studio
+
+REDACTION EN COURS 
