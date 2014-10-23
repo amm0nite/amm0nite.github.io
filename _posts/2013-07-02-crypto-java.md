@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cryptographie asymétrique avec Java"
+title: "Chiffrement asymétrique avec Java"
 published: true
 categories: programming
 ---
