@@ -21,13 +21,9 @@ Créer les dossiers suivants:
 * C:\SFML\build
 * C:\SFML\install
 
-Extraire le contenu de l'archive dans le dossie `SFML/source`
+Extraire le contenu de l'archive dans le dossier `SFML/source`
 
-
-
-
-
-Télécharge et installer Cmake (avec Win32 Installer)
+[Télécharger](http://www.cmake.org/download/) et installer Cmake (avec Win32 Installer)
 
 Windows (Win32 Installer)
 ajouter au path
