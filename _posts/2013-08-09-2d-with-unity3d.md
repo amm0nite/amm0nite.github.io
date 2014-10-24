@@ -120,7 +120,7 @@ Dans Unity, il faut attribuer un `Material` aux objets pour indiquer comment ils
 
 Voici un exemple de sprite atlas :
 
-![atlas]({{ site.url }}/assets/faithful-minecraft-texturepack.png) 
+![atlas]({{ site.url }}/assets/terrain.png)
 
 {% highlight c# %}
 private static Material CreateAtlas() {

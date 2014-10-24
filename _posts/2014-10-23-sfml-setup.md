@@ -15,7 +15,7 @@ Cet article est en fait une synthèse sans explications de ces deux tutoriels of
 
 ## Compiler SFML
 
-[Télécharger](http://sfml-dev.org/download-fr.php) le code source de SFML
+[Téléchargez](http://sfml-dev.org/download-fr.php) le code source de SFML.
 
 Créez les dossiers suivants:
 
@@ -23,7 +23,7 @@ Créez les dossiers suivants:
     C:\SFML\build
     C:\SFML\install
 
-Extrayez le contenu de l'archive dans le dossier `SFML/source`. Vous devez obtenir ceci dans le dossier `source`
+Extrayez le contenu de l'archive dans le dossier `SFML/source`. Vous devez obtenir ceci dans le dossier `source` :
 
 ![Contenu du dossier "source"]({{ site.url }}/assets/source.png)
 
