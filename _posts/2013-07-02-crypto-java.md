@@ -15,7 +15,7 @@ Avec RSA on ne chiffre que des données de petite taille car l'opération est lo
 
 {% gist 5379594 %}
 
-On souhaite envoyer des messages d'un utilisateur à un autre, tout en étant sûr que ceux qui interceptent le message ne peuvent pas le lire (confidentialité), et que le message ne peut pas être intercepté et renvoyé par un autre (authentification de l'auteur par le récepteur). On part du principe que tous utilisateurs possèdent une paire de clés et connaissent seulement la clé publique de chaque autre utilisateur.
+On souhaite envoyer des messages d'un utilisateur à un autre, tout en étant sûr que ceux qui interceptent le message ne peuvent pas le lire (confidentialité), et que le message ne peut pas être intercepté et renvoyé par un autre (authentification de l'auteur par le récepteur). On part du principe que tous les utilisateurs possèdent une paire de clés et connaissent seulement la clé publique de chaque autre utilisateur.
 
 Dans l’exemple précédent, la confidentialité est présente mais pas l'authentification. On va programmer l'auteur du message pour qu'il chiffre une signature dans le message avec sa clé privée, ensuite le destinataire vérifie cette information en la déchiffrant avec la clé publique de l'auteur. Si l'information peut être déchiffrée et qu'elle est correcte, cela veut dire que l'auteur possède bien la bonne identité (clé privée).
 
