@@ -63,3 +63,35 @@ Ouvrez les propriétés du projet (clic droit sur le nom du projet dans l'explor
 
 ![VS2013 propriétés du projet]({{ site.url }}/assets/vs1.png)
 
+![include]({{ site.url }}/assets/include.png)
+
+![lib]({{ site.url }}/assets/lib.png)
+
+![dll]({{ site.url }}/assets/dll.png)
+
+{% highlight c++ %}
+#include <SFML/Graphics.hpp>
+
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::CircleShape shape(100.f);
+    shape.setFillColor(sf::Color::Green);
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        window.clear();
+        window.draw(shape);
+        window.display();
+    }
+
+    return 0;
+}
+{% endhighlight %}
