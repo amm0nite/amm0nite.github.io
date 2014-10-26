@@ -111,8 +111,8 @@ int main()
 }
 {% endhighlight %}
 
-Un message d'erreur va apparaître car il faut copier les fichiers DLL dans le même dossier que l'éxécutable du projet.
+Un message d'erreur va apparaître car il faut au préalable copier les fichiers DLL de SFML dans le même dossier que l'éxécutable du projet.
 
-Copiez tout les fichiers DLL de `C:\SFML\install\bin` dans le dossier du projet qui contient le `VotreProjet.exe`.
+Copiez tout les fichiers DLL de `C:\SFML\install\bin` dans le dossier du projet qui contient `VotreProjet.exe`.
 
 Et maintenant tout fonctionne, lisez ce [livre](https://www.packtpub.com/game-development/sfml-game-development) et programmez un jeu!
