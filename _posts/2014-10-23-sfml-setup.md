@@ -63,11 +63,26 @@ Ouvrez les propriétés du projet (clic droit sur le nom du projet dans l'explor
 
 ![VS2013 propriétés du projet]({{ site.url }}/assets/vs1.png)
 
+Dans `Propriétés de configuration > C/C++ > Général > Autres repertoires Include`, ajoutez le repertoire `C:\SFML\install\include`.
+
 ![include]({{ site.url }}/assets/include.png)
+
+Dans `Propriétés de configuration > Editeur de liens > Général > Répertoires de bibliothèques supplémentaires`, ajoutez le repertoire `C:\SFML\install\lib`.
 
 ![lib]({{ site.url }}/assets/lib.png)
 
+Dans `Propriétés de configuration > Editeur de liens > entrée > Dépendances supplémentaires`, ajoutez :
+
+    sfml-audio.lib
+    sfml-graphics.lib
+    sfml-main.lib
+    sfml-network.lib
+    sfml-system.lib
+    sfml-window.lib
+    
 ![dll]({{ site.url }}/assets/dll.png)
+
+Pour tester, créez un fichier `main.cpp` avec le code suivant puis compilez le projet (en mode "Release").
 
 {% highlight c++ %}
 #include <SFML/Graphics.hpp>
@@ -95,3 +110,9 @@ int main()
     return 0;
 }
 {% endhighlight %}
+
+Un message d'erreur va apparaître car il faut copier les fichiers DLL dans le même dossier que l'éxécutable du projet.
+
+Copiez tout les fichiers DLL de `C:\SFML\install\bin` dans le dossier du projet qui contient le `VotreProjet.exe`.
+
+Et maintenant tout fonctionne, lisez ce [livre](https://www.packtpub.com/game-development/sfml-game-development) et programmez un jeu!
