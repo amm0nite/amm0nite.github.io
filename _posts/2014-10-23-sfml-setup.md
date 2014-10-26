@@ -63,7 +63,7 @@ Ouvrez les propriétés du projet (clic droit sur le nom du projet dans l'explor
 
 ![VS2013 propriétés du projet]({{ site.url }}/assets/vs1.png)
 
-Dans `Propriétés de configuration > C/C++ > Général > Autres repertoires Include`, ajoutez le repertoire `C:\SFML\install\include`.
+Dans `Propriétés de configuration > C/C++ > Général > Autres répertoires Include`, ajoutez le repertoire `C:\SFML\install\include`.
 
 ![include]({{ site.url }}/assets/include.png)
 
