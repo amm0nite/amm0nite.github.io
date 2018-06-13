@@ -1,0 +1,18 @@
+
+.post-image {
+    float: left;
+}
+
+.post-image img {
+    object-fit: cover;
+    width: 160px;
+    height: 120px;
+}
+
+.post-box {
+    margin-left: 170px;
+}
+
+.post-clear {
+    clear: both;
+}
